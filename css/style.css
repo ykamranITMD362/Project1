@@ -24,12 +24,14 @@ input[type="email"] {
   background-color: #ccc1b6;
   border-radius: 20px;
   text-align: center;
+  width:90%;
   border-style: hidden;
 }
 input[type="text"] {
   background-color: #ccc1b6;
   border-radius: 20px;
   text-align: center;
+  width:90%;
   border-style: hidden;
 }
 input[type="submit"] {
@@ -38,6 +40,7 @@ input[type="submit"] {
   background-color: #ccc1b6;
   border-radius: 20px;
   border-style: hidden;
+  width: 90%;
   color: #8D7B68;
   font-family: monospace;
 }

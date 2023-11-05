@@ -41,4 +41,78 @@ input[type="submit"] {
   font-family: monospace;
 }
 
+/* Two Media Queries*/
+/*ipad*/
+@media (min-width: 768px){
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 8em;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+  }
+  input[type="text"] {
+    font-size: 25px;
+    width: 20em;
+  }
+  input[type="email"] {
+    font-size: 25px;
+    width: 20em;
+  }
+  input[type="submit"] {
+    font-size: 25px;
+    margin-top: 30px;
+    width: 20em;
+  }
+}
+
+/*Laptop*/
+@media (min-width: 992px){
+  h1{
+    font-size: 60px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 10em;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+  }
+  input[type="text"] {
+    font-size: 20px;
+    width: 20em;
+    margin: 10px;
+  }
+  input[type="email"] {
+    font-size: 20px;
+    width: 20em;
+    margin: 10px;
+  }
+  input[type="submit"] {
+    font-size: 20px;
+    width: 10em;
+    margin: 115px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+}
 

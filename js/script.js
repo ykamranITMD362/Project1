@@ -1,9 +1,9 @@
 window.onload = function(){
   const button = document.querySelector('input[type="submit"]');
 
-  button.addEventListener("click", myFunction);
+  button.addEventListener("click", inputValid);
 
-  function myFunction(){
+  function inputValid(){
     //check if text inputs get numbers /^[A-Za-z]+$
     const letters = /[a-zA-Z]/;
     let input = document.querySelector('input[id="name"]');

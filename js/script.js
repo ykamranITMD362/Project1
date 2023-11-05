@@ -1,4 +1,14 @@
-window.onload = function(){
-  const button = document.querySelector('input[type="submit"]');
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
 
-  button.addEventListener("click", myFunction);
+// function for username  digit requirement
+
+var form = document.getElementById('form');
+
+// alert for form completion
+function alertFunction() {
+  if (form.checkValidity()) {
+    alert("You have successfully signed up\nCheck your email for more information");
+  }

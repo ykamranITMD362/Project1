@@ -1,13 +1,16 @@
-jQuery(function($) {
-  $('html').removeClass('nojs');
-  $('html').addClass('hasjs');
-});
+window.onload = function(){
+  const button = document.querySelector('input[type="submit"]');
 
+  button.addEventListener("click", myFunction);
 
-var form = document.getElementById('form');
-
-// alert for form completion
-function alertFunction() {
-  if (form.checkValidity()) {
-    alert("You have now signed up!");
+  function myFunction(){
+    //check if text inputs get numbers /^[A-Za-z]+$
+    const letters = /[a-zA-Z]/;
+    let input = document.querySelector('input[id="name"]');
+    if(letters.test(input.value) == false){
+      alert("Input a name please");
+    } else {
+      alert("You have successfully signed up!");
+    }
   }
+}
